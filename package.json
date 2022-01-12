@@ -1,0 +1,25 @@
+{
+  "name": "resetcss",
+  "version": "1.0.0",
+  "description": "A simple CSS reset",
+  "main": "index.js",
+  "scripts": {
+    "uglify": "uglifycss src/reset.css > dist/reset.min.css && cp src/reset.css dist/reset.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdecamp/resetcss.git"
+  },
+  "keywords": [
+    "css reset"
+  ],
+  "author": "Matt DeCamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattdecamp/resetcss/issues"
+  },
+  "homepage": "https://github.com/mattdecamp/resetcss#readme",
+  "devDependencies": {
+    "uglifycss": "^0.0.29"
+  }
+}
