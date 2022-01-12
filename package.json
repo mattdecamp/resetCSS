@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattdecamp/resetcss.git"
+    "url": "git+https://github.com/mattdecamp/resetCSS.git"
   },
   "keywords": [
     "css reset"
